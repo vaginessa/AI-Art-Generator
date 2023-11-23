@@ -7,10 +7,10 @@ env:
   main_project_module: app
 
    # The name of the Play Store
-  playstore_name: ${{ github.repository_owner }}
+  playstore_name: vanni
   
   # repo name variable
-  repository_name: ${{ github.repository }}
+  repository_name: AIArtGen
 
 on:
   # Triggers the workflow on push or pull request events but only for default and protected branches
